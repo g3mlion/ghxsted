@@ -17,10 +17,16 @@
   --g2:123,58,69;
   --unicode:'\e900'; }
 
+#hedera {
+ --unicode:'\e902'; }
+
 #juliana {
   --g1:183,158,216;
   --g2:124,71,127;
   --unicode:'\bb20'; }
+
+#neevee {
+ --unicode:'\bb11'; }
 
 #shense {
   --g1:152,159,194;
