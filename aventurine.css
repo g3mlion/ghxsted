@@ -99,7 +99,7 @@
 .avntrn-out:before {
   background:rgba(var(--black));
   content:'';
-  width:95px;
+  width:80px;
   position:absolute;
     top:0px; bottom:0px; left:0px;
 }
@@ -120,7 +120,7 @@
 .avntrn-out avdate {
   color:rgba(var(--lgray));
   position:absolute;
-    bottom:25px; left:75px;
+    bottom:25px; left:70px;
   text-transform:uppercase;
   transform:rotate(-90deg);
   transform-origin:bottom left;
@@ -139,7 +139,7 @@
 }
 
 .avntrn-in {
-  	padding:75px 55px 45px 50px;
+  	padding:75px 50px 45px 25px;
 }
 .avntrn-in hr {
   border:0px;
@@ -163,7 +163,7 @@
   display:block;
   margin:0px 75px;
   position:relative;
-    top:-13px;
+    top:-14px;
 }
 
 
