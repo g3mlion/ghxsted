@@ -18,6 +18,8 @@
   --unicode:'\e900'; }
 
 #hedera {
+ --g1:203,154,163;
+ --g2:147,81,85;
  --unicode:'\e902'; }
 
 #juliana {
@@ -26,6 +28,8 @@
   --unicode:'\bb20'; }
 
 #neevee {
+ --g1:124,171,161;
+ --g2:74,119,131;
  --unicode:'\bb11'; }
 
 #shense {
