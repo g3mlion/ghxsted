@@ -107,7 +107,7 @@
 }
 
 .aegrn-cmt {
-  background:rgba(var(--black));
+  background:-webkit-linear-gradient(bottom left, rgba(var(--black)), rgba(var(--black),0.95));
   color:rgba(var(--lgray));
 	font-weight:500;
 	font-size:15px;
