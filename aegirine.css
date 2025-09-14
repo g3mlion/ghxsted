@@ -141,13 +141,12 @@
 }
 
 .aegirine a.user-tagged {
+  border:1px solid rgba(var(--g1));
+  border-radius:5px;
   color:rgba(var(--g1));
     background:-webkit-linear-gradient(top left, rgba(var(--g1)) 25%, rgba(var(--g2)));
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
-  border:1px solid rgba(var(--lgray));
-  border-radius:5px;
-  color:rgba(var(--g1));
   font-weight:900;
   padding:4px 5px;
 }
