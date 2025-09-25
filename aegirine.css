@@ -98,9 +98,6 @@
 }
 .aegirine aedate:before {
   color:rgba(var(--black));
-    background:-webkit-linear-gradient(top left, rgba(var(--g1)), rgba(var(--g2)));
-    -webkit-background-clip:text;
-    -webkit-text-fill-color:transparent;
   content:'\e920';
   font-family:starry;
   font-size:10px;
