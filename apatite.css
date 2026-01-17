@@ -61,6 +61,7 @@
 .aptt-key.filters input[type="radio"]:checked + label i { color:rgba(var(--g1))!important; }
 
 .aptt-key.filters i {
+  cursor:crosshair;
   padding:10px 10px;
 	position:relative;
 }
