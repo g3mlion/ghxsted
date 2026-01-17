@@ -179,6 +179,7 @@
   padding:20px;
   position:absolute;
     bottom:0px; left:25px; height:112px; width:276px;
+  z-index:5;
 }
 .aptt-rels .apscrl::-webkit-scrollbar { background-color:rgba(var(--lgray),0); width:0px; }
 .aptt-rels .apscrl::-webkit-scrollbar-thumb { background-color:rgba(var(--dgray),0); }
@@ -207,6 +208,7 @@
   padding:4px 5px;
   position:relative;
   text-transform:uppercase;
+  z-index:5;
 }
 .aptt-rels .char-rel > * { margin:0px; padding:0px; }
 
