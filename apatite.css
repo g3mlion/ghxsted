@@ -325,8 +325,7 @@
     flex-flow:wrap;
   flex:0 0 0;
   min-height:50px;
-  min-width:calc(50% - 50px);
-  max-width:calc(100% - 25px);
+  min-width: calc(50% - 37px);
   overflow:hidden;
   padding:15px;
   position:relative;
