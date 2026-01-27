@@ -131,6 +131,16 @@
   height:25px;
 }
 
+.agrllt-cmt b {
+  color:rgba(var(--g1),0.8);
+  font-weight:800;
+}
+.agrllt-cmt i { opacity:0.8; }
+.agrllt-cmt u {
+  border-bottom:1px solid rgba(var(--g1),0.8);
+  font-weight:600;
+  text-decoration:none;
+}
 
 .agrellite a {
   color:rgba(var(--white),0.8);
