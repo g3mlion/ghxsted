@@ -10,8 +10,8 @@
   border-radius:25px;
 	font-family:urbanist;
 	font-weight:500;
-	font-size:15px;
-	line-height:23px;
+	font-size:15.5px;
+	line-height:25px;
 	overflow:hidden;
 	position:relative;
 	margin:25px auto;
@@ -106,7 +106,7 @@
   background:-webkit-linear-gradient(top, rgba(var(--black)), rgba(var(--black),0.95));
   color:rgba(var(--lgray));
 	font-weight:500;
-	font-size:15px;
+	font-size:15.5px;
 	line-height:25px;
   padding:5px 35px 25px;
   position:relative;
@@ -180,7 +180,7 @@
     background:-webkit-linear-gradient(top left, rgba(var(--g1)) 25%, rgba(var(--g2)));
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
-  font-size:12px!important;
+  font-size:10px!important;
   font-weight:900;
   padding:3px 5px;
 }
