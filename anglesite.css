@@ -36,9 +36,9 @@
 .anglst-sf {
     background-size:15px 15px;
   background-image:
-    linear-gradient(to right, rgba(var(--lgray)) 1px, rgba(var(--lgray),0.4) 1px),
-    linear-gradient(to bottom, rgba(var(--lgray)) 1px, rgba(var(--lgray),0.4) 1px);
-  border:1px solid rgba(var(--lgray));
+    linear-gradient(to right, rgba(var(--dgray)) 1px, rgba(var(--lgray),0.4) 1px),
+    linear-gradient(to bottom, rgba(var(--dgray)) 1px, rgba(var(--lgray),0.4) 1px);
+  border:1px solid rgba(var(--dgray));
   border-top:0px;
   border-left:0px;
   height:180px; width:180px;
