@@ -18,7 +18,7 @@
 }
 .anglesite:before {
     content:'';
-  background:rgba(var(--lgray),0.2);
+  background:rgba(var(--lgray),0.4);
   border:1px solid rgba(var(--lgray));
   border-left:0px;
   position:absolute;
@@ -36,8 +36,8 @@
 .anglst-sf {
     background-size:15px 15px;
   background-image:
-    linear-gradient(to right, rgba(var(--lgray)) 1px, rgba(var(--lgray),0.15) 1px),
-    linear-gradient(to bottom, rgba(var(--lgray)) 1px, rgba(var(--lgray),0.15) 1px);
+    linear-gradient(to right, rgba(var(--lgray)) 1px, rgba(var(--lgray),0.4) 1px),
+    linear-gradient(to bottom, rgba(var(--lgray)) 1px, rgba(var(--lgray),0.4) 1px);
   border:1px solid rgba(var(--lgray));
   border-top:0px;
   border-left:0px;
