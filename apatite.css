@@ -289,10 +289,10 @@
   font-weight:600;
   text-transform:uppercase;
   text-shadow:
-    -1px 0 rgba(var(--g2)),
-    0 1px rgba(var(--g2)),
-    1px 0 rgba(var(--g2)),
-    0 -1px rgba(var(--g2));
+    -1px 0 rgba(var(--g2),0.35),
+    0 1px rgba(var(--g2),0.35),
+    1px 0 rgba(var(--g2),0.35),
+    0 -1px rgba(var(--g2),0.35);
   padding-right:0px;
 }
 .aptt-my mon:before {
