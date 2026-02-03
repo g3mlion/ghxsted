@@ -72,6 +72,7 @@
   content:'\e920';
   color:rgba(var(--g1));
   font-family:'starry';
+    -webkit-font-smoothing:antialiased;
   position:absolute;
     right:10px;
 }
@@ -98,6 +99,7 @@
   content:var(--unicode);
   color:rgba(var(--white));
   font-family:'boolovd';
+    -webkit-font-smoothing:antialiased;
   font-size:42px;
   font-weight:100;
   line-height:100%;
@@ -111,7 +113,6 @@
     0 -1px rgba(var(--g2),.45);
   z-index:10;
 }
-
 
 .anglst-in b {
   color:rgba(var(--g1));
@@ -218,4 +219,39 @@
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
   font-weight:900;
+}
+
+.anglesite ul {
+  background:rgba(var(--lgray),0.25);
+  border:1px solid rgba(var(--lgray),0.75);
+  border-radius:20px;
+  display:block;
+  margin:5px auto 0px;
+  padding:25px;
+  position:relative;
+}
+.anglesite li {
+  border-bottom:1px solid rgba(var(--lgray));
+  font-size:13.5px;
+  line-height:23px;
+  display:flex;
+  margin-left:25px;
+  position:relative;
+  padding:15px;
+}
+.anglesite li:before {
+  content:'\e920';
+  color:rgba(var(--g1));
+    background:-webkit-linear-gradient(top left, rgba(var(--g1)) 20%, rgba(var(--g2)));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+  font-family:'starry';
+  font-size:15.5px;
+    -webkit-font-smoothing:antialiased;
+  display:inline-block;
+  position:absolute;
+    left:-25px;
+}
+.anglesite li::marker {
+  color:transparent;
 }
