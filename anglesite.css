@@ -230,7 +230,7 @@
   padding:25px;
   position:relative;
 }
-.anglesite li {
+.anglesite ul li {
   border-bottom:1px solid rgba(var(--lgray));
   font-size:13.5px;
   line-height:23px;
@@ -239,7 +239,7 @@
   position:relative;
   padding:15px;
 }
-.anglesite li:before {
+.anglesite ul li:before {
   content:'\e920';
   color:rgba(var(--g1));
     background:-webkit-linear-gradient(top left, rgba(var(--g1)) 20%, rgba(var(--g2)));
@@ -251,7 +251,4 @@
   display:inline-block;
   position:absolute;
     left:-25px;
-}
-.anglesite li::marker {
-  color:transparent;
 }
