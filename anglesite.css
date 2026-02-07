@@ -240,7 +240,7 @@
   padding:15px;
 }
 .anglesite ul li:before {
-  content:'+';
+  content:'\e920';
   color:rgba(var(--g1));
     background:-webkit-linear-gradient(top left, rgba(var(--g1)) 20%, rgba(var(--g2)));
     -webkit-background-clip:text;
