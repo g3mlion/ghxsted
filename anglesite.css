@@ -8,13 +8,14 @@
   background:rgba(var(--white));
   border:1px solid rgba(var(--lgray));
   border-radius:0px;
-	font-family:urbanist;
-	font-weight:500;
-	font-size:15.5px;
-	line-height:25px;
-	position:relative;
-	margin:25px auto;
-	width:495px;
+  color:rgba(var(--black));
+  font-family:urbanist;
+  font-weight:500;
+  font-size:15.5px;
+  line-height:25px;
+  position:relative;
+  margin:25px auto;
+  width:495px;
 }
 .anglesite:before {
     content:'';
@@ -137,6 +138,7 @@
 }
 
 .anglesite a {
+  color:rgba(var(--black));
   font-size:11px;
   font-weight:600;
   text-transform:uppercase;
