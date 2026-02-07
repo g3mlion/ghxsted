@@ -223,4 +223,32 @@
   font-weight:900;
 }
 
-
+.anglesite ul {
+  border-radius:20px;
+  display:block;
+  margin:5px auto 0px;
+  padding:25px 0px;
+  position:relative;
+}
+.anglesite ul li {
+  border-bottom:1px solid rgba(var(--lgray));
+  font-size:13.5px;
+  line-height:23px;
+  display:block;
+  margin-left:25px;
+  position:relative;
+  padding:15px;
+}
+.anglesite ul li:before {
+  content:'+';
+  color:rgba(var(--g1));
+    background:-webkit-linear-gradient(top left, rgba(var(--g1)) 20%, rgba(var(--g2)));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+  font-family:'starry';
+  font-size:15.5px;
+    -webkit-font-smoothing:antialiased;
+  display:inline-block;
+  position:absolute;
+    left:-25px;
+}
