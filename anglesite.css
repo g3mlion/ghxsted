@@ -261,3 +261,10 @@
   position:absolute;
     top:6.5px; left:-15px;
 }
+
+.anglesite hr {
+  background:-webkit-linear-gradient(bottom left, rgba(var(--g1),0.3), rgba(var(--g2),0.6), rgba(var(--g1),0.3));
+  border:0px;
+  height:1px;
+  margin:25px 75px;
+}
