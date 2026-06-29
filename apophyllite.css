@@ -402,7 +402,6 @@ span.apopen {
 .apphyllt-btm .apscrl {
   display:flex;
     flex-flow:row wrap;
-    align-content:center;
     gap:15px;
   height:calc(100% - 26px); width:calc(100% - 50px);
   padding:0px 25px 15px;
