@@ -1,0 +1,135 @@
+/****************************************
+ AZURITE
+ designed & coded by GHOSTLY
+ for PERSONAL USE ONLY
+*****************************************/
+
+.azurite {
+  background:rgba(var(--white));
+  border:1px solid rgba(var(--dgray));
+  border-radius:10px;
+  color:rgba(var(--black),0.675);
+	font-family:urbanist;
+	font-weight:500;
+	font-size:15.5px;
+	line-height:25px;
+	position:relative;
+	margin:25px auto;
+	padding:50px;
+	width:430px;
+}
+
+.azurite b {
+  color:rgba(var(--g1));
+    background:-webkit-linear-gradient(top left, rgba(var(--g1)), rgba(var(--g2)));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+  font-weight:800;
+}
+.azurite i { opacity:0.8; }
+.azurite u {
+  border-bottom:2px solid rgba(var(--g1),0.75);
+  font-weight:600;
+  text-decoration:none;
+}
+
+.azrt-dst {
+  font-size:24px;
+  font-weight:700;
+  line-height:28px;
+  text-transform:upper;
+}
+.azrt-dst span {
+  color:rgba(var(--g1),0.7);
+  background:-webkit-linear-gradient(bottom right, rgba(var(--g2),0.9) 10%, rgba(var(--g1),0.5));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+  font-family:'virgo delight';
+  font-size:32px;
+}
+.azrt-dst i {
+  font-family:urbanist;
+  font-weight:400;
+  font-style:italic;
+}
+
+.azrt-dst:before {
+  content:var(--unicode);
+  color:rgba(var(--black));
+  font-family:'boolovd';
+    -webkit-font-smoothing:antialiased;
+  font-size:42px;
+  font-weight:100;
+  line-height:100%;
+  padding:25px;
+  position:absolute;
+    top:0px; right:25px;
+  text-shadow:
+    -1px 0 rgba(var(--g2),.45),
+    0 1px rgba(var(--g2),.45),
+    1px 0 rgba(var(--g2),.45),
+    0 -1px rgba(var(--g2),.45);
+  z-index:10;
+}
+
+.azrt-in {
+  border:1px solid rgba(var(--dgray));
+  border-left:0px;
+  border-right:0px;
+  color:rgba(var(--black));
+  margin:25px 0px;
+    padding:50px 25px;
+  position:relative;
+    z-index:2;
+}
+
+.azurite a {
+  background:rgba(var(--g1));
+  color:rgba(var(--white));
+  font-size:11px;
+  font-weight:700;
+  text-transform:uppercase;
+  padding:2px 5px;
+}
+
+.azurite a.user-tagged {
+  background:transparent;
+  color:rgba(var(--black),0.75);
+	font-weight:500;
+	font-size:15.5px;
+  padding:0px;
+  margin-right:2.5px;
+  text-transform:lowercase;
+}
+.azurite a.user-tagged:before {
+  content:'\e92b';
+  color:rgba(var(--g2));
+  font-family:'starry';
+    -webkit-font-smoothing:antialiased;
+  font-weight:bold;
+}
+
+.azurite span.dice-roll {
+  padding-left:25px;
+  position:relative;
+}
+.azurite span.dice-roll b {
+  display:none;
+}
+.azurite span.dice-roll:before {
+  content:'\e93c';
+  font-family:'starry';
+    -webkit-font-smoothing:antialiased;
+  font-weight:400;
+  font-size:26px;
+  line-height:100%;
+  position:absolute;
+    top:-6px; left:-6px;
+  text-shadow:
+    -1px 0 rgba(var(--g2),.45),
+    0 1px rgba(var(--g2),.45),
+    1px 0 rgba(var(--g2),.45),
+    0 -1px rgba(var(--g2),.45);
+}
+
+.azurite block { margin:25px 0px; }
