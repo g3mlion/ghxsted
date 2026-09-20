@@ -118,6 +118,7 @@
 }
 .azurite span.dice-roll:before {
   content:'\e93c';
+  color:rgba(var(--g2));
   font-family:'starry';
     -webkit-font-smoothing:antialiased;
   font-weight:400;
@@ -125,11 +126,6 @@
   line-height:100%;
   position:absolute;
     top:-6px; left:-6px;
-  text-shadow:
-    -1px 0 rgba(var(--g2),.45),
-    0 1px rgba(var(--g2),.45),
-    1px 0 rgba(var(--g2),.45),
-    0 -1px rgba(var(--g2),.45);
 }
 
 .azurite block { margin:25px 0px; }
