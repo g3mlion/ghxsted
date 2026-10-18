@@ -1,0 +1,270 @@
+/****************************************
+ AQUAMARINE
+ designed & coded by GHOSTLY
+ for PERSONAL USE ONLY
+*****************************************/
+
+.aquamarine {
+  background:rgba(var(--white));
+  border:1px solid rgba(var(--dgray));
+  border-radius:10px;
+  color:rgba(var(--black));
+	font-family:urbanist;
+	font-weight:500;
+	font-size:15.5px;
+	line-height:25px;
+	overflow:hidden;
+	position:relative;
+	margin:25px auto;
+	padding:50px;
+	width:430px;
+}
+.aquamarine:before {
+  content:'';
+  border-right:1px solid rgba(var(--dgray));
+  position:absolute;
+    top:50px; bottom:50px; right:50px;
+}
+.aquamarine:after {
+  content:'';
+  background:rgba(var(--dgray));
+  border-radius:100%;
+  padding:2px;
+  position:absolute;
+    bottom:50px; right:49px;
+}
+
+.aqmrn-acnt {
+  padding:35px;
+  position:relative;
+    top:-25px; left:-50px;
+  width:100%;
+}
+
+.aqmrn-acnt:before {
+  content:'';
+  border:2px solid rgba(var(--g2),0.4);
+  border-top-right-radius:100px;
+  border-bottom-right-radius:100px;
+  border-left:0px;
+  padding:55px 75px;
+  position:absolute;
+    top:0px; left:0px;
+  z-index:1;
+}
+.aqmrn-acnt:after {
+  content:'';
+  border:2px solid rgba(var(--g2),0.3);
+  border-top-right-radius:100px;
+  border-bottom-right-radius:100px;
+  border-left:0px;
+  padding:50px 72px;
+  position:absolute;
+    top:5px; left:0px;
+  z-index:1;
+}
+.aqmarc-in {
+  content:'';
+  border:2px solid rgba(var(--g1),0.4);
+  border-top-right-radius:100px;
+  border-bottom-right-radius:100px;
+  border-left:0px;
+  padding:45px 69px;
+  position:absolute;
+    top:10.5px; left:0px;
+  z-index:1;
+}
+.aqmarc-in:before {
+  content:'';
+  border:2px solid rgba(var(--g1),0.3);
+  border-top-right-radius:100px;
+  border-bottom-right-radius:100px;
+  border-left:0px;
+  padding:40px 66px;
+  position:absolute;
+    top:3.5px; left:0px;
+  z-index:1;
+}
+.aqmarc-in:after {
+  content:'';
+  border:2px solid rgba(var(--g2),0.15);
+  border-top-right-radius:100px;
+  border-bottom-right-radius:100px;
+  border-left:0px;
+  padding:35px 63px;
+  position:absolute;
+    top:9px; left:0px;
+  z-index:1;
+}
+
+.aqmrn-ico:before {
+  content:var(--unicode);
+  background:-webkit-linear-gradient(top left, rgba(var(--g2),0.9), rgba(var(--g1),0.7));
+    aspect-ratio: 1;
+  --g:/25.486% 25.486% radial-gradient(#000 calc(71% - 1px),#0000 71%) no-repeat;
+  mask: 99.97% 51.745% var(--g),87.157% 83.457% var(--g),56.959% 99.513% var(--g),23.504% 92.402% var(--g),2.447% 65.451% var(--g),3.641% 31.27% var(--g),26.526% 5.853% var(--g),60.396% 1.093% var(--g),89.401% 19.217% var(--g),radial-gradient(100% 100%,#000 35.01%,#0000 calc(35.01% + 1px));
+  color:rgba(var(--white));
+  font-family:'boolovd';
+    -webkit-font-smoothing:antialiased;
+  font-size:52px;
+  font-weight:100;
+  line-height:100%;
+  padding:25px;
+  position:absolute;
+    top:-15px; left:110px;
+  text-shadow:
+    -1px 0 rgba(var(--g2),.45),
+    0 1px rgba(var(--g2),.45),
+    1px 0 rgba(var(--g2),.45),
+    0 -1px rgba(var(--g2),.45);
+  z-index:10;
+    z-index:5;
+}
+
+.aqmrn-dst {
+  background:rgba(var(--white));
+  color:rgba(var(--black),0.5);
+  display:inline-block;
+  font-size:11px;
+  line-height:11px;
+  font-weight:900;
+  padding:5px 10px;
+  position:relative;
+    top:-15px; left:455px;
+  text-transform:uppercase;
+  transform:rotate(90deg);
+  transform-origin:top left;
+  z-index:10;
+}
+
+
+.aqmrn-in {
+  padding:25px 25px 30px;
+}
+
+
+.aqmrn-tg {
+  background:-webkit-linear-gradient(top left, rgba(var(--lgray),0.3) 50%, rgba(var(--lgray),0));;
+  border-radius:10px;
+  display:inline-block;
+  margin:0px 25px -25px -25px;
+  padding:25px;
+}
+
+
+.aquamarine b {
+  color:rgba(var(--g1));
+    background:-webkit-linear-gradient(top left, rgba(var(--g1)), rgba(var(--g2)));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+  font-weight:800;
+}
+.aquamarine i { opacity:0.8; }
+.aquamarine u {
+  border-bottom:1px solid rgba(var(--g1),0.75);
+  font-weight:600;
+  text-decoration:none;
+}
+
+.aquamarine a {
+  background:rgba(var(--g1));
+  color:rgba(var(--white));
+  font-size:11px;
+  font-weight:700;
+  text-transform:uppercase;
+  padding:2px 5px;
+}
+
+.aquamarine a.user-tagged {
+  background:transparent;
+  color:rgba(var(--black),0.75);
+	font-weight:500;
+	font-size:15.5px;
+  padding:0px;
+  margin-right:2.5px;
+  text-transform:lowercase;
+}
+.aquamarine a.user-tagged:before {
+  content:'\e92b';
+  color:rgba(var(--g2));
+  font-family:'starry';
+    -webkit-font-smoothing:antialiased;
+  font-weight:bold;
+}
+
+
+.aquamarine span.dice-roll {
+  background:-webkit-linear-gradient(top left, rgba(var(--g1),0.15) 25%, rgba(var(--lgray),0));;
+  border-radius:5px;
+  font-size:12px;
+  display:inline-block;
+  border:0px!important;
+  padding-left:25px;
+  position:relative;
+}
+.aquamarine span.dice-roll b {
+  display:none;
+}
+.aquamarine span.dice-roll:before {
+  content:'\e93c';
+  color:rgba(var(--g2));
+  font-family:'starry';
+    -webkit-font-smoothing:antialiased;
+  font-weight:400;
+  font-size:28px;
+  line-height:100%;
+  position:absolute;
+    top:-1.5px; left:-5px;
+}
+
+
+
+.aquamarine ul {
+  border-radius:20px;
+  border:1px solid rgba(var(--lgray));
+  display:block;
+  margin:25px 25px 25px 0px;
+  padding:8px 5px 10px;
+  position:relative;
+}
+.aquamarine ul li {
+  line-height:23px;
+  display:block;
+  margin-left:25px;
+  position:relative;
+  padding:5px 5px 0px;
+}
+.aquamarine ul li:before {
+  content:'\e920';
+  color:rgba(var(--g1));
+    background:-webkit-linear-gradient(top left, rgba(var(--g1)), rgba(var(--g2)));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+  font-family:'starry';
+  font-size:12px;
+    -webkit-font-smoothing:antialiased;
+  display:inline-block;
+  position:absolute;
+    top:6.5px; left:-13px;
+}
+
+.aquamarine hr {
+  background:-webkit-linear-gradient(bottom left, #0000, rgba(var(--g1),0.5), rgba(var(--g2),0.8), rgba(var(--g1),0.5), #0000);
+  border:0px;
+  height:2px;
+  margin:50px 75px;
+}
+
+
+
+.aquamarine block {
+    background: rgba(var(--white));
+    background: linear-gradient(to top, rgba(var(--lgray), 0.1), rgba(var(--g1), 0.2));
+    border: 1px solid rgba(var(--lgray));
+    border-radius: 15px;
+    color: rgba(var(--black));
+    display: block;
+    line-height: 25px;
+    margin:25px 25px 25px 0px!important;
+    padding: 25px;
+}
