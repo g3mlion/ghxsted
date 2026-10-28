@@ -23,6 +23,7 @@
 
 .astrphllt-top {
   border-bottom:1px solid rgba(var(--lgray));
+  height:243px;
   padding-bottom:25px;
 	position:relative;
 }
