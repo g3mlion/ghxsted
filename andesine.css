@@ -83,6 +83,7 @@
   font-weight:300;
   position:relative;
     top:5px; left:38px;
+  text-transform:upperase;
 }
 .andsn-dst:before {
   content:'';
@@ -96,8 +97,7 @@
   font-style:italic;
   font-weight:500;
   position:absolute;
-    bottom:-32px; right:-42px;
-  text-transform:upperase;
+    bottom:-32px; right:-42px
 }
 
 .andsn-in {
