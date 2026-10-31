@@ -7,7 +7,7 @@
 .andesine {
   background:rgba(var(--white));
   border:1px solid rgba(var(--dgray));
-  border-radius:10px;
+  border-radius:20px;
   color:rgba(var(--black));
 	font-family:urbanist;
 	font-weight:500;
