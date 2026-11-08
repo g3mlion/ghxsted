@@ -1,0 +1,194 @@
+/****************************************
+ ANORTHITE
+ designed & coded by GHOSTLY
+ for PERSONAL USE ONLY
+*****************************************/
+
+.anorthite {
+  background:rgba(var(--white));
+  border:1px solid rgba(var(--dgray));
+  border-radius:25px;
+  color:rgba(var(--black));
+	font-family:urbanist;
+	font-weight:500;
+	font-size:15.5px;
+	line-height:25px;
+	overflow:hidden;
+	position:relative;
+	margin:25px auto;
+	width:530px;
+}
+
+.anrtht-top {
+  padding:25px 0px 60px;
+  padding-left:150px;
+  position:relative;
+}
+.anrtht-ico:before {
+  content:var(--unicode);
+  background:-webkit-linear-gradient(top left, rgba(var(--g2),0.95), rgba(var(--g1),0.8));
+  border-radius:0px 0px 15px 15px;
+  color:rgba(var(--white));
+  font-family:'boolovd';
+    -webkit-font-smoothing:antialiased;
+  font-size:52px;
+  font-weight:100;
+  line-height:100%;
+  padding:25px 20px 25px;
+  position:absolute;
+    top:0px; left:85px;
+  text-align:center;
+  transform:translate(-50%, 0);
+  text-shadow:
+    -1px 0 rgba(var(--g2),.45),
+    0 1px rgba(var(--g2),.45),
+    1px 0 rgba(var(--g2),.45),
+    0 -1px rgba(var(--g2),.45);
+  z-index:10;
+}
+#shense .anrtht-ico:before {
+  padding:25px 25px 25px 15px;
+}
+.anrtht-dst {
+  border-bottom:1.5px solid rgba(var(--g1),0.5);
+  display:inline-block;
+  font-size:12px;
+  font-weight:600;
+  line-height:18px;
+  padding:15px 25px 5px 0px;
+  position:absolute;
+  text-transform:uppercase;
+}
+.anrtht-dst i {
+  display:block;
+  font-size:22px;
+  font-weight:400;
+  opacity:0.6!important;
+  padding:5px 0px 0px;
+}
+
+.anrtht-mid {
+  padding:50px;
+  position:relative;
+}
+
+.anrtht-bot {
+  border-top:1px solid rgba(var(--dgray));
+  padding:25px 25px 70px;
+  position:relative;
+}
+.anrtht-bot:after {
+  content:'';
+  background:rgba(var(--black),0.9);
+  padding:25px;
+  position:absolute;
+    bottom:0px; left:0px; right:0px;
+}
+
+.anorthite b {
+  color:rgba(var(--g2),0.85);
+  font-weight:700;
+}
+.anorthite i { opacity:0.8; }
+.anorthite u {
+  border-bottom:1.5px solid rgba(var(--g1));
+  padding:0px 2.5px;
+  font-weight:600;
+  text-decoration:none;
+}
+
+.anorthite a {
+  background:-webkit-linear-gradient(top left, rgba(var(--g1),0.1) 50%, rgba(var(--lgray),0));;
+  border:1px solid rgba(var(--g1),0.2);
+  border-radius:5px;
+  color:rgba(var(--g2),0.85);
+  font-size:11px;
+  font-weight:600;
+  padding:3px 5px;
+  text-transform:uppercase;
+}
+
+.anorthite a.user-tagged {
+  background:-webkit-linear-gradient(top left, rgba(var(--lgray),0.3) 50%, rgba(var(--lgray),0));;
+  color:rgba(var(--black),0.7);
+}
+.anorthite a.user-tagged:before {
+  content:'\e920';
+  color:rgba(var(--g2));
+  font-family:'starry';
+    -webkit-font-smoothing:antialiased;
+  font-size:10px;
+  margin-right:3px;
+}
+
+.anorthite span.dice-roll {
+  background:-webkit-linear-gradient(top left, rgba(var(--g1),0.15) 25%, rgba(var(--lgray),0));;
+  border-radius:5px;
+  font-size:12px;
+  display:inline-block;
+  border:0px!important;
+  padding-left:25px;
+  position:relative;
+}
+.anorthite span.dice-roll b {
+  display:none;
+}
+.anorthite span.dice-roll:before {
+  content:'\e93c';
+  color:rgba(var(--g2));
+  font-family:'starry';
+    -webkit-font-smoothing:antialiased;
+  font-weight:400;
+  font-size:28px;
+  line-height:100%;
+  position:absolute;
+    top:-1.5px; left:-5px;
+}
+
+.anorthite ul {
+  border-radius:20px;
+  border:1px solid rgba(var(--lgray));
+  display:block;
+  margin:25px 25px 25px 0px;
+  padding:8px 5px 10px;
+  position:relative;
+}
+.anorthite ul li {
+  line-height:23px;
+  display:block;
+  margin-left:25px;
+  position:relative;
+  padding:5px 5px 0px;
+}
+.anorthite ul li:before {
+  content:'\e920';
+  color:rgba(var(--g1));
+    background:-webkit-linear-gradient(top left, rgba(var(--g1)), rgba(var(--g2)));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+  font-family:'starry';
+  font-size:12px;
+    -webkit-font-smoothing:antialiased;
+  display:inline-block;
+  position:absolute;
+    top:6.5px; left:-13px;
+}
+
+.anorthite hr {
+  background:-webkit-linear-gradient(bottom left, #0000, rgba(var(--g1),0.5), rgba(var(--g2),0.8), rgba(var(--g1),0.5), #0000);
+  border:0px;
+  height:2px;
+  margin:50px 75px;
+}
+
+.anorthite block {
+  background:rgba(var(--white));
+  background:linear-gradient(to top, rgba(var(--lgray), 0.1), rgba(var(--g1), 0.2));
+  border:1px solid rgba(var(--lgray));
+  border-radius: 15px;
+  color:rgba(var(--black));
+  display:block;
+  line-height:25px;
+  margin:25px 25px 25px 0px!important;
+  padding:25px;
+}
