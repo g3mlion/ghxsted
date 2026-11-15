@@ -74,7 +74,7 @@
 
 .anrtht-bot {
   border-top:1px solid rgba(var(--dgray));
-  padding:25px 25px 70px;
+  padding:30px 30px 75px;
   position:relative;
 }
 .anrtht-bot:after {
