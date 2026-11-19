@@ -300,7 +300,7 @@
   z-index:10;
 }
 .astrphllt-my:before {
-  content:var(--unicode);
+  content:var(--accent);
   color:rgba(var(--g1));
   font-family:'starry';
   font-size:32px;
