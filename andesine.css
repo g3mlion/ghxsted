@@ -9,21 +9,23 @@
   border:1px solid rgba(var(--dgray));
   border-radius:25px;
   color:rgba(var(--black));
-	font-family:urbanist;
-	font-weight:500;
-	font-size:15.5px;
-	line-height:25px;
-	overflow:hidden;
-	position:relative;
-	margin:25px auto;
-	padding:50px;
-	width:430px;
+  font-family:urbanist;
+  font-weight:500;
+  font-size:15.5px;
+  line-height:25px;
+  margin:25px auto;
+  overflow:hidden;
+  padding:50px;
+  position:relative;
+  width:430px;
 }
 .andesine:before {
   content:'';
   border-right:1px solid rgba(var(--dgray));
+  border-bottom:1px solid rgba(var(--dgray));
+  border-bottom-right-radius:18px;
   position:absolute;
-    top:50px; bottom:50px; right:30px;
+    top:50px; left:75%; bottom:30px; right:30px;
 }
 .andesine:after {
   content:'';
@@ -31,7 +33,7 @@
   border-radius:100%;
   padding:2px;
   position:absolute;
-    bottom:50px; right:28px;
+    top:50px; right:28px;
 }
 
 .andsn-acnt {
@@ -79,10 +81,10 @@
 .andsn-dst {
   color:rgba(var(--black),0.7);
     display:inline-block;
-  font-size:22px;
+  font-size:26px;
   font-weight:300;
   position:relative;
-    top:5px; left:38px;
+    top:5px; left:40px;
   text-transform:uppercase;
 }
 .andsn-dst:before {
