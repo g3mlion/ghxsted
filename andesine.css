@@ -98,6 +98,7 @@
 
 .andsn-in {
   padding:25px 25px 30px;
+  position:relative;
 }
 
 .andsn-tg {
@@ -106,6 +107,16 @@
   display:inline-block;
   margin:0px 25px -25px -25px;
   padding:25px;
+  position:relative;
+  z-index:5;
+}
+.andsn-tg:after {
+  content:'';
+  background:rgba(var(--dgray));
+  border-radius:100%;
+  padding:2px;
+  position:absolute;
+    bottom:2.5px; right:-94px;
 }
 
 .andesine b {
